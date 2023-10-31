@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "rootDirs": [
+      "./src/",
+      "./resources/assets/"
+    ],
+    "strict": true,
+    "noImplicitThis": true,
+    "types": [
+      "node"
+    ],
+    "esModuleInterop": true,
+    "sourceRoot": "./src/",
+    "lib": [
+      "dom",
+      "scripthost",
+      "es2019"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
